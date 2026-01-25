@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "question": "What is the attention mechanism?",
+    "expected_answer": "Attention computes a weighted sum of values based on query-key similarity."
+  },
+  {
+    "id": 2,
+    "question": "Why are positional encodings required in transformers?",
+    "expected_answer": "Transformers lack inherent sequence order, so positional encodings inject position information."
+  },
+  {
+    "id": 3,
+    "question": "What are queries, keys, and values?",
+    "expected_answer": "They are vector representations used to compute attention scores and weighted outputs."
+  }
+]
