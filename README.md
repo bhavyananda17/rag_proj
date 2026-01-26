@@ -14,21 +14,21 @@ Unlike demo-style RAG projects, this work focuses on understanding **why the sys
 ## 🔧 System Architecture
 
 PDF Documents
-↓
+->
 Document Loading
-↓
+->
 Chunking (500 tokens, 50 overlap)
-↓
+->
 Embeddings (Sentence-Transformers: MiniLM)
-↓
+->
 FAISS Vector Store
-↓
+->
 Top-k Retriever
-↓
+->
 Grounded Prompt
-↓
+->
 LLM (Local via Ollama / OpenAI-compatible)
-↓
+->
 Final Answer
 
 
@@ -125,4 +125,5 @@ The following enhancements were identified but intentionally left unimplemented 
 ## 📌 Key Takeaway
 
 This project demonstrates not just how to build a RAG system, but how to **evaluate, analyze, and reason about its behavior and failure modes** — a critical skill for production AI systems.
+
 
