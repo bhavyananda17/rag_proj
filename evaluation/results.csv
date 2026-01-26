@@ -1,0 +1,2 @@
+question_id,chunking,retrieved_relevant,answer_faithful,notes
+1,500/50,Yes,Partial,Answer added general Transformer context beyond retrieved text
